@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className='dark:bg-gray-800 bg-white'>
-      <div className='max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto'>
+    <footer className='sticky bottom-0 border-t border-gray-200 dark:bg-gray-800  dark:border-gray-700'>
+      <div className='max-w-[85rem] py-5 px-4 sm:px-6 lg:px-8 mx-auto'>
         <div className='grid grid-cols-1 md:grid-cols-3 items-center gap-5 text-center'>
           <div>
             <a
@@ -42,7 +42,7 @@ const Footer = () => {
 
           <div className='md:text-right space-x-2'>
             <a
-              className='inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900'
+              className='inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900'
               href='#'
             >
               <svg
@@ -57,7 +57,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              className='inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900'
+              className='inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900'
               href='#'
             >
               <svg
@@ -72,7 +72,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              className='inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900'
+              className='inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900'
               href='#'
             >
               <svg
@@ -87,7 +87,7 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              className='inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900'
+              className='inline-flex justify-center items-center w-8 h-8 text-center text-gray-500 hover:bg-gray-100 rounded-full focus:outline-none focus:ring-2 focus:ring-amber-600 focus:ring-offset-2 focus:ring-offset-white transition dark:text-gray-500 dark:hover:text-gray-200 dark:hover:bg-gray-800 dark:focus:ring-offset-slate-900'
               href='#'
             >
               <svg
