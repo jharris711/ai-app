@@ -4,7 +4,7 @@ import {
   Session,
   createClientComponentClient,
 } from '@supabase/auth-helpers-nextjs';
-import AvatarUpload from '../AvatarUpload';
+import AvatarUpload from './avatar-upload';
 import { Database } from '@/types/supabase';
 import { genUsername } from '@/services/genUsername';
 

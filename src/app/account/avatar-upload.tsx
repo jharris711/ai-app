@@ -1,8 +1,9 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import { Database } from '@/types/supabase';
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 import Image from 'next/image';
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
+
+import { Database } from '@/types/supabase';
 type Profiles = Database['public']['Tables']['profiles']['Row'];
 
 const AvatarUpload = ({

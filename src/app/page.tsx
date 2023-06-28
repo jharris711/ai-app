@@ -42,7 +42,7 @@ const Home = async () => {
           </div>
           <div className='max-w-3xl text-center mx-auto'>
             <h1 className='block font-medium text-gray-700 dark:text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl'>
-              An easy to use AI application
+              A new ChatGPT alternative
             </h1>
           </div>
 

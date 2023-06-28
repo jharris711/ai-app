@@ -1,4 +1,4 @@
-import SignUpForm from '@/components/SignUpForm';
+import SignUpForm from './signup-form';
 
 const SignUpPage = () => {
   return (
@@ -13,9 +13,9 @@ const SignUpPage = () => {
               Already have an account?
               <a
                 className='ml-1 text-amber-600 decoration-2 hover:underline font-medium'
-                href='../examples/html/signin.html'
+                href='/login'
               >
-                Sign in here
+                Log in here
               </a>
             </p>
           </div>
